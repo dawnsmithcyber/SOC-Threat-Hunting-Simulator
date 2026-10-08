@@ -1,12 +1,22 @@
-# 🔎 SOC Threat Hunting & Incident Response Case Study
-
-## 75-Day IT/OT Security Operations Simulation
+# 🛡️ SOC & Threat Hunting Tabletop Exercise Repository
 
 > **Stop hunting events. Hunt the story.**
 
-This repository documents my participation in a **75-day, team-based SOC simulation** involving a fictional manufacturing environment with both Information Technology (IT) and Operational Technology (OT) assets.
+This repository documents my hands-on cybersecurity tabletop exercises focused on SOC analysis, threat hunting, incident response, risk-based decision-making, and defensive security operations.
+
+Each exercise captures not only what happened, but the reasoning behind my decisions, how priorities changed as new information emerged, and the lessons I carried forward.
+
+---
+
+# 🔎 Tabletop Exercise #1 — 75-Day IT/OT Security Operations Simulation
+
+**Status: Ongoing — Day 46/75**
+
+This tabletop exercise documents my participation in a **75-day, team-based SOC simulation** involving a fictional manufacturing environment with both Information Technology (IT) and Operational Technology (OT) assets.
 
 Rather than simply documenting which security controls were selected, this case study focuses on the **reasoning behind the decisions** — identifying risk, prioritizing remediation, responding to incidents, analyzing operational impact, validating defensive changes, and determining when additional detection or threat hunting was warranted.
+
+---
 
 ---
 
@@ -124,40 +134,59 @@ The lesson was simple but important:
 
 ## 📂 Case Study Series
 
-This repository will grow throughout the 75-day simulation.
+This repository will continue to grow throughout the 75-day tabletop exercise.
 
-### Part 1
-[Environment & Risk Baseline](01-environment-and-risk-baseline.md)
+### 🔗 Part 1
+[**Environment & Risk Baseline**](01-environment-and-risk-baseline.md)
 
 Establishing the environment, identifying risk, and determining which defensive actions should be prioritized first.
 
-### Part 2
-**Identity & Credential Risk**  
+### 🔗 Part 2
+[**Identity & Credential Risk**](02-identity-and-credential-risk.md)
+
 Credential exposure, default credentials, access control, and identity-based attack paths.
 
-### Part 3
-**Ransomware Incident Response**  
+### 🔗 Part 3
+[**Ransomware Incident Response**](03-ransomware-incident-response.md)
+
 Containment, forensic collection, recovery, and hunting backward from impact.
 
-### Part 4
-**OT Patching & PLC Lessons**  
+### 🔗 Part 4
+[**OT Patching & PLC Lessons**](04-ot-patching-and-plc-lessons.md)
+
 Why patching decisions in operational environments require additional context.
 
-### Part 5
-**Historian Defense**  
-Evaluating patching, antivirus, telemetry, and sequencing defensive controls.
+### 🔗 Part 5
+[**Recovery, Restore Points & Validation**](05-recovery-restore-points-and-validation.md)
 
-### Part 6
-**Hunting Unpatchable Risk**  
-Using compensating controls and increased visibility when immediate remediation is unavailable.
+Using recovery planning and validation to reduce operational risk before and after defensive changes.
 
-### Part 7
-**Threat Hunting Timeline**  
-Connecting individual events to identify patterns and reconstruct potential attack activity.
+### 🔗 Part 6
+[**Vulnerability Prioritization & Compensating Controls**](06-vulnerability-prioritization-and-compensating-controls.md)
 
-### Part 8
-**Lessons Learned**  
-The major SOC, incident response, threat hunting, IT/OT, and risk-prioritization lessons from the exercise.
+Managing vulnerabilities when immediate remediation is unavailable and determining when additional controls are needed.
+
+### 🔗 Part 7
+[**Detection, Visibility & Threat Hunting**](07-detection-visibility-and-threat-hunting.md)
+
+Increasing telemetry and connecting security events to identify suspicious patterns and potential attack activity.
+
+### 🔗 Part 8
+[**Resource Prioritization & SOC Decision-Making**](08-resource-prioritization-and-soc-decision-making.md)
+
+Balancing risk, staffing, budget, operational impact, and competing security priorities.
+
+### 🔗 Part 9
+[**Defense-in-Depth & Security Control Strategy**](09-defense-in-depth-and-security-control-strategy.md)
+
+Layering preventive, detective, and responsive controls across the IT/OT environment.
+
+### 🔗 Part 10
+[**Evolving SOC Analyst & Threat Hunter Mindset**](10-evolving-soc-analyst-and-threat-hunter-mindset.md)
+
+Documenting how lessons from the exercise continue to shape my analysis, decision-making, and threat-hunting approach.
+
+> **Exercise Status:** Ongoing — Day 46/75. Additional incidents, decisions, findings, and lessons will be added as the tabletop exercise progresses.
 
 ---
 
